@@ -134,51 +134,48 @@ body {
   transition: 0.2s;
   cursor: pointer;
 }
-.hero-content > button:hover{
+.hero-content > button:hover {
   background-color: #ece8e1;
   color: black;
 }
 
-
 /* LATEST SECTION */
-.latest-container{
+.latest-container {
   background-color: #ece8e1;
   padding: 60px;
 }
-.latest-container>header{
+.latest-container > header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.latest-container h1{
+.latest-container h1 {
   font-size: 48px;
   font-family: fantasy;
   letter-spacing: 0.028em;
 }
-.latest-container p{
+.latest-container p {
   font-weight: 600;
 }
-.card-container{
+
+.card-container {
   height: 500px;
   width: 100%;
-  background-color:#ece8e1;
+  background-color: #ece8e1;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.card{
-  height: 450px;  
+.card {
+  height: 450px;
   width: 380px;
   /* padding: 0 50px 10px 50px; */
   /* border: 2px solid red; */
   background-color: #ece8e1;
-  
-  
-
 }
-.card-img1{
+.card-img1 {
   height: 220px;
   width: 380px;
   background-color: red;
@@ -187,11 +184,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.card > .card-img1:hover{
-  scale: calc(1.05);
-  transition: 0.3s ease;
+.card:hover {
+  .card-img1 {
+    scale: calc(1.05);
+    transition: 0.3s ease;
+  }
 }
-.card-img2{
+.card-img2 {
   height: 220px;
   width: 380px;
   background-color: red;
@@ -200,11 +199,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.card > .card-img2:hover{
-  scale: calc(1.05);
-  transition: 0.3s ease;
+.card:hover {
+  .card-img2 {
+    scale: calc(1.05);
+    transition: 0.3s ease;
+  }
 }
-.card-img3{
+.card-img3 {
   height: 220px;
   width: 380px;
   background-color: red;
@@ -212,14 +213,14 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
-.card > .card-img3:hover{
-  scale: calc(1.05);
-  transition: 0.3s ease;
-  
+.card:hover {
+  .card-img3 {
+    scale: calc(1.05);
+    transition: 0.3s ease;
+  }
 }
-.card-name{
+.card-name {
   height: 40px;
   width: 400px;
   /* border: 1px solid blue; */
@@ -233,14 +234,14 @@ body {
   color: #ff3c46;
 }
 
-.card-name > .time{
-  color:#0f1923;
+.card-name > .time {
+  color: #0f1923;
 }
-.card-name > div{
+.card-name > div {
   color: #bfbbb6;
 }
-.card-heading{
-  height:60px;
+.card-heading {
+  height: 60px;
   width: 400px;
   /* border: 1px solid blue; */
   font-family: sans-serif;
@@ -249,9 +250,8 @@ body {
   color: #0f1923;
   margin: 0 0 2px;
   font-size: larger;
-  
 }
-.card-desc{
+.card-desc {
   height: 50px;
   width: 350px;
   color: #0f1923;
@@ -262,19 +262,19 @@ body {
   letter-spacing: 0.08em;
   padding: 6px 6px;
 }
-.image-container{
+.image-container {
   height: 80vh;
   width: 100%;
   background-color: aqua;
   position: relative;
 }
-.image-container > img{
+.image-container > img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
-.image-content{
+.image-content {
   /* border: 2px solid white; */
   position: absolute;
   top: 50%;
@@ -284,10 +284,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 50%
+  min-width: 50%;
 }
-.p-head{
-  font-size: 3.5rem ;
+.p-head {
+  font-size: 3.5rem;
   font-weight: 900;
   color: white;
   /* display: block; */
@@ -297,8 +297,7 @@ body {
   /* line-height: 112px; */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
-.p-content
-{
+.p-content {
   font-size: 1.2rem;
   font-weight: 600;
   color: white;
@@ -306,7 +305,7 @@ body {
   margin-left: 0;
   max-width: 500px;
 }
-.image-content > button{
+.image-content > button {
   background-color: #ff4655;
   font-size: 1.2rem;
   font-weight: 600;
@@ -314,10 +313,10 @@ body {
   /* border-radius: 5px; */
   border: none;
   color: #ece0d2;
-  letter-spacing: 0.10em;
+  letter-spacing: 0.1em;
   cursor: pointer;
 }
-.image-content > button:hover{
+.image-content > button:hover {
   background-color: #ece0d2;
   color: black;
 }
