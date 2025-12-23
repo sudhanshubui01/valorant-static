@@ -97,7 +97,7 @@ body {
 .video-container {
   height: 80vh;
   width: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   position: relative;
 }
 .video-container > video {
@@ -215,4 +215,319 @@ body {
 .card .description {
   font-weight: normal;
   font-size: 16px;
+}
+
+/* New Agent Section  */
+
+.agent-container {
+  height: 91vh;
+  width: 100%;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.agent-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.agent-content {
+  /* border: 2px solid white; */
+  position: absolute;
+  right: 11%;
+  top: 30%;
+  color: white;
+  letter-spacing: 0.08em;
+}
+.agent-content > h1 {
+  font-size: 80px;
+  font-family: fantasy;
+  margin-bottom: 10px;
+}
+.agent-content > button {
+  background-color: #ff3c46;
+  padding: 18px 32px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.agent-content > button:hover {
+  color: black;
+  background-color: white;
+}
+/*  Game Play Section*/
+.gameplay-container {
+  height: 80vh;
+  width: 100%;
+  /* border: 2px solid black; */
+  background-image: url(/assets/grey-bg.png);
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.gameplay-container > article {
+  width: 45%;
+  height: 90%;
+  /* border: 2px solid black; */
+}
+.gameplay-video-container > video {
+  height: 100%;
+  width: 100%;
+}
+.gameplay-content {
+  padding: 8px;
+}
+.gameplay-content > h1 {
+  font-size: 80px;
+  font-family: fantasy;
+  margin-top: 16px;
+}
+.gameplay-content > div {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-block-start: 0.6em;
+}
+.gameplay-content > p {
+  font-size: 14px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+
+  font-weight: 400;
+  font-family: DINNextW1G, Inter, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: black;
+}
+.gameplay-content > button {
+  background-color: #ff3c46;
+  color: white;
+  padding: 18px 32px;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.gameplay-content > button:hover {
+  color: white;
+  background: black;
+  transition: 0.2s;
+}
+/* Your Agent Section  */
+.your-agent-container {
+  height: 90vh;
+  width: 100%;
+  background-image: url(/assets/red-bg.png);
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.your-agent-container > article {
+  width: 45%;
+  height: 90%;
+  /* border: 2px solid black; */
+}
+.your-agent-image-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.your-agent-content {
+  padding: 130px 0;
+  color: #ece8e1;
+}
+.your-agent-content > h1 {
+  font-size: 80px;
+  font-family: fantasy;
+  margin-top: 10px;
+}
+.your-agent-content > div {
+  font-size: 14px;
+  display: block;
+  margin-block-start: 1em;
+  font-size: 18px;
+  color: rgb(236, 232, 225);
+}
+.your-agent-content > p {
+  margin-block-start: 0.5em;
+  font-size: 14px;
+  display: block;
+  font-weight: 400;
+  font-family: DINNextW1G, Inter, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(236, 232, 225);
+}
+.your-agent-content > button {
+  background-color: #0f1923;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 22px 30px;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.your-agent-content > button:hover {
+  background-color: #ece8e1;
+  color: #0f1923;
+  transition: 0.8s;
+}
+/* Your Map Section */
+.your-map-container {
+  height: 90vh;
+  width: 100%;
+  background-image: url(/assets/your-map-bg.png);
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.your-map-container > article {
+  width: 45%;
+  height: 90%;
+  /* border: 2px solid black; */
+}
+.your-map-content {
+  padding: 130px 0;
+  color: #0f1923;
+}
+.your-map-content > h1 {
+  font-size: 80px;
+  font-family: fantasy;
+  margin-top: 10px;
+}
+.your-map-content > div {
+  font-size: 14px;
+  display: block;
+  margin-block-start: 1em;
+  font-size: 18px;
+  color: #0f1923;
+  font-weight: 550;
+}
+.your-map-content > p {
+  margin-block-start: 0.5em;
+  font-size: 14px;
+  display: block;
+  font-weight: 400;
+  font-family: DINNextW1G, Inter, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #0f1923;
+}
+.your-map-content > button {
+  background-color: #ff3c46;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 22px 30px;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.your-map-content > button:hover {
+  background-color: #0f1923;
+  transition: 0.8s;
+}
+.your-map-image-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+/* Footer Section */
+.footer {
+  background-color: #111;
+  padding: 0px 0px 48px 0px;
+  border-top: 2px solid #343434;
+}
+.footer-link {
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "FF Mark W05", Arial, sans-serif;
+  background: #292929;
+  padding: 16px;
+  margin: 0;
+  color: #f9f9f9;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer-link > ul {
+  list-style: none;
+  margin: 0;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-link > ul > li {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #f9f9f9;
+  transition: all 0.2s linear;
+  letter-spacing: 22;
+}
+.footer-link > ul > li:hover {
+  background-color: #7e7e7e;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Social Media */
+.social-media{
+  user-select: none;
+  box-sizing: border-box;  
+  padding: 18px 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+.social-media>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    
+    
+    
+}
+.social-media>ul>li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  height: 100%;
+  margin: 6px;
+    background: #282828;
+    border-radius: 12px;
+    width: 32px;
+    height: 32px;
+    
+}
+li>svg{
+  width: 16px;
+  height: 16px;
+  fill: #f9f9f9;
+  fill-rule: evenodd;
 }
