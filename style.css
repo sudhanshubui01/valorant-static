@@ -489,28 +489,24 @@ body {
   border-radius: 5px;
 }
 /* Social Media */
-.social-media{
+.social-media {
   user-select: none;
-  box-sizing: border-box;  
+  box-sizing: border-box;
   padding: 18px 0;
   user-select: none;
   box-sizing: border-box;
 }
-.social-media>ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
-    
-    
-    
+.social-media > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
-.social-media>ul>li{
+.social-media > ul > li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -519,15 +515,96 @@ body {
   cursor: pointer;
   height: 100%;
   margin: 6px;
-    background: #282828;
-    border-radius: 12px;
-    width: 32px;
-    height: 32px;
-    
+  background: #282828;
+  border-radius: 12px;
+  width: 32px;
+  height: 32px;
 }
-li>svg{
+li > svg {
   width: 16px;
   height: 16px;
   fill: #f9f9f9;
   fill-rule: evenodd;
+}
+.riotgames {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding: 24px 0px 20px;
+}
+.riotgames > div > svg {
+  fill: #737373;
+}
+.riotgames > div > svg:hover {
+  fill: #f9f9f9;
+  cursor: pointer;
+}
+.copyright {
+  font-family: "FF Mark W05", Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 640px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+  text-align: center;
+  word-break: keep-all;
+  color: #7e7e7e;
+}
+.legal {
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "FF Mark W05", Arial, sans-serif;
+  padding: 24px 0px 28px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.legal > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.legal > ul > li {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #f9f9f9;
+  transition: all 0.2s linear;
+  border-radius: 7%;
+}
+.legal > ul > li:hover {
+  cursor: pointer;
+  background-color: #343434;
+}
+.notices {
+  user-select: none;
+  box-sizing: border-box;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.notices > .footer-notices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 8px 12px;
+  background: #292929;
+  border-radius: 8px;
+}
+.notices > div > img:hover {
+  cursor: pointer;
 }
