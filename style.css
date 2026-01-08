@@ -506,7 +506,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.social-media > ul > li {
+.social-media > ul > a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -520,7 +520,7 @@ body {
   width: 32px;
   height: 32px;
 }
-li > svg {
+a > svg {
   width: 16px;
   height: 16px;
   fill: #f9f9f9;
